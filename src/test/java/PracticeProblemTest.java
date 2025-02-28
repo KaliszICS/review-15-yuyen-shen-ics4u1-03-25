@@ -14,7 +14,7 @@ public class PracticeProblemTest {
          Method method = testClass.getDeclaredMethod("goodString", cArg);
          // Enter code here
          int result = (int)method.invoke(null, "bacdsfa");
-         assertEquals(result, 1);
+         assertEquals(1, result);
       }
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
@@ -33,7 +33,7 @@ public class PracticeProblemTest {
          Method method = testClass.getDeclaredMethod("goodString", cArg);
          // Enter code here
          int result = (int)method.invoke(null, "abcda");
-         assertEquals(result, 0);
+         assertEquals(0, result);
       }
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
@@ -52,7 +52,7 @@ public class PracticeProblemTest {
          Method method = testClass.getDeclaredMethod("goodString", cArg);
          // Enter code here
          int result = (int)method.invoke(null, "abcdefghiab");
-         assertEquals(result, 1);
+         assertEquals(1, result);
       }
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
@@ -71,7 +71,7 @@ public class PracticeProblemTest {
          Method method = testClass.getDeclaredMethod("goodString", cArg);
          // Enter code here
          int result = (int)method.invoke(null, "pqr");
-         assertEquals(result, -1);
+         assertEquals(-1, result);
       }
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
@@ -90,7 +90,7 @@ public class PracticeProblemTest {
          Method method = testClass.getDeclaredMethod("goodString", cArg);
          // Enter code here
          int result = (int)method.invoke(null, "bacdefghipalop");
-         assertEquals(result, 4);
+         assertEquals(4, result);
       }
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
@@ -109,7 +109,7 @@ public class PracticeProblemTest {
          Method method = testClass.getDeclaredMethod("goodString", cArg);
          // Enter code here
          int result = (int)method.invoke(null, "abcdfedree");
-         assertEquals(result, 5);
+         assertEquals(5, result);
       }
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
@@ -128,7 +128,7 @@ public class PracticeProblemTest {
          Method method = testClass.getDeclaredMethod("goodString", cArg);
          // Enter code here
          int result = (int)method.invoke(null, "abcdfghee");
-         assertEquals(result, 7);
+         assertEquals(7, result);
       }
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
